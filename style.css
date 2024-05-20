@@ -1,0 +1,253 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px;
+    font-size: 20px;
+    
+  
+
+}
+
+body { 
+    background-color: rgb(170, 170, 237);
+    margin: 0%;
+    
+   
+  
+    
+}
+
+.navigateur img {
+    position: relative;
+    right: 120px;
+    width: 70px;
+    height: 40px;
+}
+
+.navigateur {
+    display: flex;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px; 
+}
+
+a {
+    text-decoration: double;
+    color: black;
+}
+
+button {
+    border-radius: 909px;
+    background-color: #9a03ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: linear-gradient(to bottom,#9a03ff,#0108c7);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: left;
+   
+    color: rgb(6, 60, 94);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ph {
+    height: 50px;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+
+    border-radius: 8%;
+}
+
+p {
+    color: rgb(0, 0, 11);
+    font-size: 20px;
+    font-style: initial;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.img2 {
+    width: 500px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 0; 
+}
+
+.bts-branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 192, 203, 0.669);
+    max-height: 100vh;
+    
+   
+}
+
+.bts-branch {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bts-branch h2 {
+    margin-top: 0;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    color: #333;
+}
+
+.bts-branch img {
+    right: 200px;
+    width: 300px;
+    height: 70px;
+    transition: transform 0.3s ease;
+ 
+}
+
+.bts-branch img:hover {
+    transform: scale(1.1);
+}
+
+.inscription {
+    background-color: rgba(255, 228, 196, 0.918);
+}
+
+.IP {
+    margin-top: 30%;
+   
+}
+
+.img2 img {
+    transition: transform 0.3s ease;
+}
+
+.img2 img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .navigateur img {
+        right: 0;
+        margin-bottom: 10px;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .bts-branch {
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+    .signup, .middle {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .img2 {
+        width: 100%;
+    }
+}
+
+
+
+fieldset {
+    background-color: rgba(255, 192, 203, 0.669);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 192, 203, 0.669);
+   
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+   
+}
+
+table tr:hover {
+   
+    background-color: rgba(255, 192, 203, 0.669);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
